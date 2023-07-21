@@ -1,0 +1,8 @@
+@server = https://notflay-ubiquitous-engine-qj54gqg657pc9gvr-8080.preview.app.github.dev
+###
+GET {{server}}/api/employees
+### 
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{"firstName": "Mi" ,"lastName":"Aplicacion","description":"React"}
